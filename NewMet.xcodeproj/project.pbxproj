@@ -838,7 +838,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.devim.metronom;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = "1";
 			};
 			name = Debug;
 		};
@@ -860,7 +860,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.devim.metronom;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = "1";
 			};
 			name = Release;
 		};
@@ -881,7 +881,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.devim.metronomTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = "1";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NewMet.app/NewMet";
 			};
 			name = Debug;
@@ -903,7 +903,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.devim.metronomTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = "1";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NewMet.app/NewMet";
 			};
 			name = Release;
@@ -923,7 +923,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.devim.metronomUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = "1";
 				TEST_TARGET_NAME = NewMet;
 			};
 			name = Debug;
@@ -943,7 +943,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.devim.metronomUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = "1";
 				TEST_TARGET_NAME = NewMet;
 			};
 			name = Release;
