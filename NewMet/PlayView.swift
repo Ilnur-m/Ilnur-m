@@ -49,19 +49,19 @@ struct PlayView: View {
                         PlayerView(playing: $isPlaying,
                                    actionPlay: {
                             if (!metronom.isPlaying) {
-                                print("Measures:", sectionCount)
-                                print("Signatures:", signatureCount)
-                                print("BPMs:", bpm)
-                                print("Acccent: ", accentSignature)
+//                                print("Measures:", sectionCount)
+//                                print("Signatures:", signatureCount)
+//                                print("BPMs:", bpm)
+//                                print("Acccent: ", accentSignature)
                                 
                                 var arrayNote: Array<Note> = []
     
                                 
                                 let note = NoteValue(rawValue: signatureCount)
-                                print("note: ", note ?? "")
+//                                print("note: ", note ?? "")
                                 
                                 let tempoNote = NoteValue(rawValue: sectionCount)
-                                print("tempoNote: ", tempoNote ?? "")
+//                                print("tempoNote: ", tempoNote ?? "")
                                 
                                 for index in 0...accentSignature.count - 1 {
                                     var beat: BeatType

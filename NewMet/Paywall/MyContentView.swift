@@ -1,10 +1,3 @@
-//
-//  ContentView.swift
-//  PDFScanner
-//
-//  Created by lk on 08.04.2022.
-//
-
 import SwiftUI
 import ApphudSDK
 
@@ -42,7 +35,7 @@ struct MyContentView: View {
         
         Apphud.paywallsDidLoadCallback { (paywalls) in
             // retrieve current paywall with identifier
-            paywall = paywalls.first(where: { $0.identifier == "pdf" })
+            paywall = paywalls.first
             
             // retrieve the products [ApphudProduct] from current paywall
             AppManager.shared.products = paywall?.products

@@ -112,6 +112,12 @@ struct PaywallOnboardingView: View {
                             
                             Apphud.restorePurchases{ subscriptions, purchases, error in
                                 isPurchasing = false
+                                
+                                if (error != nil) {
+                                    presentAlert(title: "Restore purchase", message: error?.localizedDescription ?? "Sorry we are unable to restore your purchase", primaryAction: UIAlertAction(title: "OK", style: .cancel, handler: nil), secondaryAction: nil)
+                                }
+
+                                
                                 if Apphud.hasActiveSubscription(){
                                     // has active subscription
                                     manager.isPremiumUser = true;
